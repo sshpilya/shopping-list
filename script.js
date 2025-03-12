@@ -13,7 +13,7 @@
     const itemsContainer = document.querySelector('#items');
     input.addEventListener('keydown', function(event) {
         if (event.key == 'Enter') {
-          let value = input.value.trim();
+          const value = input.value.trim();
         if (value == '') return;
         let li = document.createElement('li');
           li.textContent = value;
