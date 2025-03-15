@@ -15,7 +15,7 @@
         if (event.key == 'Enter') {
           const value = input.value.trim();
         if (value == '') return;
-        let li = document.createElement('li');
+        const li = document.createElement('li');
           li.textContent = value;
           li.addEventListener('click', function() {
             li.classList.toggle('done');
